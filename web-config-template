@@ -2,7 +2,7 @@
 <configuration>
   <system.webServer>
     <handlers>
-      <add name="Python FastCGI" 
+      <add name="FastCGI" 
       path="*" 
       verb="*" 
       modules="FastCgiModule" 
